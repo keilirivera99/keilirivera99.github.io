@@ -1,0 +1,25 @@
+.header{
+    position: relative;
+}
+.section{
+    margin-left: 35%;
+    margin-right: 5%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.prototypes{
+    float: left;
+}
+
+.prototypes img{
+    width: 500px;
+}
+
+#link{
+    position: absolute;
+    right: 5%;
+    top: 0%;
+}
