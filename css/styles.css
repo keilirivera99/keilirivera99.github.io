@@ -1,128 +1,127 @@
 body{
-    background-image: url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    position: relative;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 h1{
-    color: black;
-    font-size: 250%;
+  color: black;
+  font-size: 250%;
 }
 
 .nav{
-    border: 1px solid purple;
-    height: 10%;
-    background-color: rgba(128,0,128,0.5);
+  border: 1px solid purple;
+  height: 10%;
+  background-color: rgba(128,0,128,0.5);
 }
 
 
 
 ul{
-    text-align: center;
-    list-style-type: none;
+  text-align: center;
+  list-style-type: none;
 }
 
 .nav li{
-    display: inline-block;
-    padding: 0% 5% 0% 5%;
+  display: inline-block;
+  padding: 0% 5% 0% 5%;
 }
 
 
 .nav a{
-    color: white;
-    font-size: 150%;
+  color: white;
+  font-size: 150%;
 }
 
 .nav a:link {
-    text-decoration: none;
-  }
-  
-  .nav a:visited {
-    text-decoration: none;
-  }
-  
-  .nav a:hover {
-    text-decoration: underline;
-  }
-  
-  .nav a:active {
-    text-decoration: underline;
-  }
+  text-decoration: none;
+}
+
+.nav a:visited {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav a:active {
+  text-decoration: underline;
+}
 
 #profile{
-    width:300px;
+  width:300px;
 }
 
 #bio{
-    background-color: white;
-    padding: 1% 1% 1% 1%;
-    margin: 1% 20% 1% 20%;
-    border: 1px dashed purple;
+  background-color: white;
+  padding: 1% 1% 1% 1%;
+  margin: 1% 20% 1% 20%;
+  border: 1px dashed purple;
 }
 
 
 .zoom {
-    list-style-type: none;
-    display: inline-block;
-    transition: transform .2s; /* Animation */
-    margin: 0;
-  }
-  
-  .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+  list-style-type: none;
+  display: inline-block;
+  transition: transform .2s; /* Animation */
+  margin: 0;
+}
 
-  .hovertext{
-    position: relative;
-    padding-bottom: 5%;
-  }
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
-  .hovertext:before{
-    content: attr(data-hover);
-    visibility: hidden;
-    opacity: 0;
-    width: 50%;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px 0;
-    transition: opacity 0.25s ease-in-out;
+.hovertext{
+  position: relative;
+  padding-bottom: 5%;
+}
 
-    position: absolute;
-    z-index: 1;
-    left:25%;
-    bottom: 0%;
-  }
+.hovertext:before{
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 50%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 0.25s ease-in-out;
 
-  .hovertext:hover:before{
-    opacity: 1;
-    visibility: visible;
-  }
+  position: absolute;
+  z-index: 1;
+  left:25%;
+  bottom: 0%;
+}
+
+.hovertext:hover:before{
+  opacity: 1;
+  visibility: visible;
+}
 
 
-  .projects .hovertext{
-    text-align: left;
-    background-color: rgba(255,127,80,0.5);
-    border: 1px solid coral;
-    padding-right: 20%;
-    padding-top: 5%;
-    padding-left: 5%;
-  }
+.projects .hovertext{
+  text-align: left;
+  background-color: rgba(255,127,80,0.5);
+  border: 1px solid coral;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
 
-  .projects .hovertext:before{
-    position: absolute;
-    right: 0%;
-    left: auto;
-    top: 25%;
-    bottom: auto;
-  }
+.projects .hovertext:before{
+  position: absolute;
+  right: 0%;
+  left: auto;
+  top: 25%;
+  bottom: auto;
+}
 
-  .projects a{
-    text-decoration: none;
-    color: white;
-  }
-
+.projects a{
+  text-decoration: none;
+  color: white;
+}
